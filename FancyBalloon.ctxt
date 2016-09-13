@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FancyBalloon()
+comment1.params=x\ y\ r\ c
+comment1.target=FancyBalloon(int,\ int,\ int,\ java.awt.Color)
+numComments=2

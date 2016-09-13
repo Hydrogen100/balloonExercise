@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RoundBalloon()
+comment0.text=\n\ Constructs\ a\ balloon\ with\ the\ center\ at\ (0,\ 0),\n\ radius\ 50,\ and\ blue\ color\n
+comment1.params=x\ y\ r\ c
+comment1.target=RoundBalloon(int,\ int,\ int,\ java.awt.Color)
+comment1.text=\n\ Constructs\ a\ balloon\ with\ a\ given\ center,\ radius\ and\ color\n\ @param\ x\ x-coordinate\ of\ the\ center\n\ @param\ y\ y-coordinate\ of\ the\ center\n\ @param\ r\ radius\ of\ the\ balloon\n\ @param\ c\ color\ of\ the\ balloon\n
+comment2.params=g\ makeItFilled
+comment2.target=void\ draw(java.awt.Graphics,\ boolean)
+numComments=3
