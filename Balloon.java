@@ -132,12 +132,6 @@ public class Balloon
    */
   public void draw(Graphics g, boolean makeItFilled)
   {
-    g.setColor(color);
-    if (makeItFilled)
-      g.fillOval(xCenter - radius,
-                 yCenter - radius, 2*radius, 2*radius);
-    else
-      g.drawOval(xCenter - radius,
-                 yCenter - radius, 2*radius, 2*radius);
+   
   }
 }

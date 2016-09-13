@@ -35,6 +35,12 @@ public class RoundBalloon extends Balloon
   
   public void draw(Graphics g, boolean makeItFilled)
   {
-    
-}
+    g.setColor(super.getColor());
+    if (makeItFilled)
+      g.fillOval(super.getX() - super.getRadius(),
+                 super.getY() - super.getRadius(), 2*super.getRadius(), 2*super.getRadius());
+    else
+      g.drawOval(super.getX() - super.getRadius(),
+                 super.getY() - super.getRadius(), 2*super.getRadius(), 2*super.getRadius());
+  }
 }
